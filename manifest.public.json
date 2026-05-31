@@ -1,5 +1,4 @@
 {
-  "source": "graphify-out",
   "artifacts": [
     "graph.json",
     "graph.html"
