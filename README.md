@@ -1,19 +1,36 @@
 <div align="center">
 
-# RayStation Knowledge Graph
+<!-- Animated-style Header -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:667eea,100:764ba2&height=200&section=header&text=RayStation%20Knowledge%20Graph&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=55" alt="header" />
 
-**A public knowledge graph for the RayStation / RayGPT ecosystem**
+<p align="center">
+  <em>✨ A living map of the RayStation scripting universe — built for researchers and clinical developers using agentic frameworks. ✨</em>
+</p>
 
-*Built for coding agents, researchers, and developers working in radiotherapy treatment planning.*
-
-[![GitHub stars](https://img.shields.io/github/stars/MustafaKadhim/RayStation_Knowledge_graph?style=social)](https://github.com/MustafaKadhim/RayStation_Knowledge_graph/stargazers) 🌟
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776ab?logo=python&logoColor=white)](https://www.python.org/)
+<!-- Badges with more personality -->
+<p align="center">
+  <a href="https://github.com/MustafaKadhim/RayStation_Knowledge_graph/stargazers">
+    <img src="https://img.shields.io/github/stars/MustafaKadhim/RayStation_Knowledge_graph?style=for-the-badge&color=ffd700&logo=github&logoColor=black" alt="stars" />
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Made%20with-Python-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="python" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Knowledge%20Graph-Ready-brightgreen?style=for-the-badge&logo=neo4j&logoColor=white" alt="kg" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/RayStation-Ecosystem-blue?style=for-the-badge" alt="raystation" />
+  </a>
+</p>
 
 <br>
 
-<img src="Figures/Knowledge_graph_screen_shot.png" alt="RayStation Knowledge Graph Visualization" width="90%">
+<!-- Main Visual -->
+<img src="Figures/Knowledge_graph_screen_shot.png" alt="RayStation Knowledge Graph Visualization" width="92%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.15);" />
 
-<br>
+<p align="center">
+  <sub>🕸️ Pan, zoom, and wander through the connections.</sub>
+</p>
 
 </div>
 
