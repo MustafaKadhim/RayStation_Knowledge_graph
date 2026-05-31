@@ -10,10 +10,6 @@
 <!-- Badges with more personality -->
 <p align="center">
   <a href="https://github.com/MustafaKadhim/RayStation_Knowledge_graph/stargazers">
-    <img src="https://img.shields.io/github/stars/MustafaKadhim/RayStation_Knowledge_graph?style=for-the-badge&color=ffd700&logo=github&logoColor=black" alt="stars" />
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Made%20with-Python-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="python" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Knowledge%20Graph-Ready-brightgreen?style=for-the-badge&logo=neo4j&logoColor=white" alt="kg" />
