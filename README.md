@@ -7,8 +7,6 @@
 *Built for coding agents, researchers, and developers working in radiotherapy treatment planning.*
 
 [![GitHub stars](https://img.shields.io/github/stars/MustafaKadhim/RayStation_Knowledge_graph?style=social)](https://github.com/MustafaKadhim/RayStation_Knowledge_graph/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/MustafaKadhim/RayStation_Knowledge_graph)](https://github.com/MustafaKadhim/RayStation_Knowledge_graph/commits/main)
-[![Repo size](https://img.shields.io/github/repo-size/MustafaKadhim/RayStation_Knowledge_graph)](https://github.com/MustafaKadhim/RayStation_Knowledge_graph)
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776ab?logo=python&logoColor=white)](https://www.python.org/)
 
 <br>
