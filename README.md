@@ -61,14 +61,14 @@ Whether you are onboarding to the RayStation scripting environment, building a c
 
 ---
 
-## Repository Contents
+## 📦 What's Inside?
 
-| File | Description |
-|------|-------------|
-| `graph.json` | Machine-readable graph — load this into your coding agent |
-| `graph.html` | Interactive browser visualization |
-| `manifest.public.json` | Export metadata (version, creation date, node/edge counts) |
-| `Figures/` | Screenshots and visual assets |
+| File | What It Does | Perfect For |
+|------|-------------|-------------|
+| `graph.json` | 🧠 Machine-readable graph | Feeding your coding agent |
+| `graph.html` | 🌐 Interactive visualization | Exploring in your browser |
+| `manifest.public.json` | 📊 Export metadata (version, dates, counts) | Understanding the graph's scope |
+| `Figures/` | 🖼️ Screenshots & visual assets | Documentation & presentations |
 
 ---
 
