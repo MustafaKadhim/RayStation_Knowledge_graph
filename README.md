@@ -1,60 +1,91 @@
-# RayGPT Public Knowledge Graph
+# RayStation Knowledge Graph
 
-This repository publishes contains a knowledge graph that code-wizards can use with their coding agents.
+> A public knowledge graph for the RayStation / RayGPT ecosystem —  
+> built for coding agents, researchers, and developers working in radiotherapy treatment planning.
 
-The knowledge graph keeps relationships and concepts between functions and tools while removing private source path metadata. Feel free to extend this concept further based on your needs. 
+<p align="center">
+  <img src="Figures/Knowledge_graph_screen_shot.png" alt="RayStation Knowledge Graph Visualization" width="90%">
+</p>
 
-## Quick Start for Users
+---
 
-### Option A: Clone the repository
+## What Is This?
+
+This repository publishes a **knowledge graph** derived from the RayGPT codebase. It maps relationships, concepts, functions, and tools across the RayStation scripting ecosystem — with private source path metadata removed so it is safe to share and build on freely.
+
+Whether you are onboarding to the RayStation scripting environment, building a coding agent, or exploring clinical workflow patterns, this graph gives you a structured and visual starting point.
+
+---
+
+## Repository Contents
+
+| File | Description |
+|------|-------------|
+| `graph.json` | Machine-readable graph — load this into your coding agent |
+| `graph.html` | Interactive browser visualization |
+| `manifest.public.json` | Export metadata (version, creation date, node/edge counts) |
+| `Figures/` | Screenshots and visual assets |
+
+---
+
+## Quick Start
+
+### Option A — Clone the repository
 
 ```bash
-git clone <your-github-repo-url>
-cd <repo-name>
+git clone https://github.com/MustafaKadhim/RayStation_Knowledge_graph.git
+cd RayStation_Knowledge_graph
 ```
 
-### Option B: Download ZIP from GitHub
+### Option B — Download as ZIP
 
-1. Open the GitHub repository page.
-2. Click **Code**.
-3. Click **Download ZIP**.
-4. Extract it and open the folder in your editor.
+1. Click the green **Code** button at the top of this page.
+2. Select **Download ZIP**.
+3. Extract and open the folder in your editor.
 
-## Files You Need
+---
 
-- `public-graph/graph.json` -> machine-readable graph for coding agents
-- `public-graph/graph.html` -> interactive visualization in browser
-- `public-graph/manifest.public.json` -> export metadata
+## Explore the Graph in Your Browser
 
-## View the Graph in Browser
-
-Run a local static server from the repository root:
+Launch a local static server from the repository root:
 
 ```bash
-cd public-graph
 python3 -m http.server 8000
 ```
 
-Then open:
+Then open your browser at:
 
-```text
+```
 http://localhost:8000/graph.html
 ```
 
+Pan, zoom, and click nodes to explore relationships between scripts, functions, and clinical concepts interactively.
+
+---
+
 ## Use with Your Coding Agent
 
-Typical workflow:
+Point your agent to `graph.json` and ask questions like:
 
-1. Point your agent/tool to `public-graph/graph.json`.
-2. Ask it to answer questions using graph entities, communities, and edges.
-3. Use `public-graph/graph.html` for manual exploration and validation.
+```
+"Load graph.json and list the top communities by node count."
+"Find scripts or functions related to plan optimization and QA checks."
+"Show all entities connected to CheckClinicalGoals.py."
+"Which tools are involved in dose-volume histogram evaluation?"
+```
 
-Example prompts you can give your agent:
+The graph encodes entities, communities, and weighted edges — giving your agent rich relational context without needing access to the raw source code.
 
-- "Load `public-graph/graph.json` and list the top communities by node count."
-- "Find scripts or functions related to plan optimization and QA checks."
-- "Show neighboring entities connected to `CheckClinicalGoals.py`."
+---
 
-## Limitations
+## Notes
 
-This graph is excellent for discovery and relationship mapping, but it is not a full replacement for source code and knowledge.
+This graph is designed for discovery and relationship mapping. It is an excellent complement to the official RayStation scripting documentation, but is not a replacement for it.
+
+Feel free to extend the concept, adapt the pipeline, or contribute improvements.
+
+---
+
+<p align="center">
+  Built with the <strong>RayGPT</strong> knowledge pipeline &nbsp;·&nbsp; Mustafa Kadhim
+</p>
