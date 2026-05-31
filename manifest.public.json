@@ -1,0 +1,11 @@
+{
+  "source": "graphify-out",
+  "artifacts": [
+    "graph.json",
+    "graph.html"
+  ],
+  "sanitized_fields": [
+    "source_file",
+    "source_location"
+  ]
+}
