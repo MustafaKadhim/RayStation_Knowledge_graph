@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:667eea,100:764ba2&height=200&section=header&text=RayStation%20Knowledge%20Graph&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=55" alt="header" />
 
 <p align="center">
-  <em>✨ A living map of the RayStation scripting universe — built for researchers and clinical developers using agentic frameworks. ✨</em>
+  <em>✨ A living map of the RayStation scripting universe, built for clinical developers using agentic frameworks. ✨</em>
 </p>
 
 <!-- Badges with more personality -->
